@@ -1,0 +1,50 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration2\dataK=11\3tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration2\dataK=11\3test.csv
+
+J48 pruned tree
+------------------
+
+wmc <= 3.716616
+|   noc <= 0: NO (909.0/150.0)
+|   noc > 0
+|   |   npm <= 1.232144: NO (18.0/4.0)
+|   |   npm > 1.232144
+|   |   |   mfa <= 1.044124
+|   |   |   |   lcom3 <= -0.070316: NO (6.0)
+|   |   |   |   lcom3 > -0.070316
+|   |   |   |   |   lcom <= 4.240673: YES (40.0/13.0)
+|   |   |   |   |   lcom > 4.240673: NO (6.0)
+|   |   |   mfa > 1.044124: NO (38.0/10.0)
+wmc > 3.716616: YES (38.0/12.0)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Correctly Classified Instances        2809               39.4356 %
+Incorrectly Classified Instances      4314               60.5644 %
+Kappa statistic                         -0.0457
+Mean absolute error                      0.569 
+Root mean squared error                  0.6527
+Relative absolute error                118.7286 %
+Root relative squared error            133.3307 %
+Coverage of cases (0.95 level)          98.6242 %
+Mean rel. region size (0.95 level)      98.3785 %
+Total Number of Instances             7123     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  383 3904 |    a = NO
+  410 2426 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.089    0.145    0.483      0.089    0.151      -0.086   0.485     0.591     NO
+                 0.855    0.911    0.383      0.855    0.529      -0.086   0.485     0.395     YES
+Weighted Avg.    0.394    0.450    0.443      0.394    0.302      -0.086   0.485     0.513     
+

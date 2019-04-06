@@ -1,0 +1,62 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration3\dataK=2\2tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration3\dataK=2\2test.csv
+
+J48 pruned tree
+------------------
+
+ic <= 0.693147
+|   wmc <= 3.53003
+|   |   noc <= 0
+|   |   |   ce <= 2.456736: NO (694.0/63.0)
+|   |   |   ce > 2.456736
+|   |   |   |   amc <= 3.922297: YES (3.0)
+|   |   |   |   amc > 3.922297
+|   |   |   |   |   lcom <= 2.101914: NO (17.0)
+|   |   |   |   |   lcom > 2.101914
+|   |   |   |   |   |   lcom <= 2.64553: YES (4.0)
+|   |   |   |   |   |   lcom > 2.64553: NO (4.0/1.0)
+|   |   noc > 0
+|   |   |   lcom3 <= 0.084849: NO (20.0/3.0)
+|   |   |   lcom3 > 0.084849
+|   |   |   |   lcom3 <= 0.106183: YES (5.0)
+|   |   |   |   lcom3 > 0.106183: NO (43.0/13.0)
+|   wmc > 3.53003
+|   |   rfc <= 5.64218: NO (34.0/13.0)
+|   |   rfc > 5.64218: YES (5.0)
+ic > 0.693147
+|   cbm <= 2.564949
+|   |   ic <= 1.098612: NO (45.0/16.0)
+|   |   ic > 1.098612: YES (12.0/4.0)
+|   cbm > 2.564949: YES (7.0/1.0)
+
+Number of Leaves  : 	13
+
+Size of the tree : 	25
+
+
+Correctly Classified Instances        8358               62.3964 %
+Incorrectly Classified Instances      5037               37.6036 %
+Kappa statistic                          0.0427
+Mean absolute error                      0.4052
+Root mean squared error                  0.542 
+Relative absolute error                 87.3887 %
+Root relative squared error            112.5824 %
+Coverage of cases (0.95 level)          95.5207 %
+Mean rel. region size (0.95 level)      96.1777 %
+Total Number of Instances            13395     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 7744  760 |    a = NO
+ 4277  614 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.911    0.874    0.644      0.911    0.755      0.057    0.558     0.667     NO
+                 0.126    0.089    0.447      0.126    0.196      0.057    0.558     0.398     YES
+Weighted Avg.    0.624    0.588    0.572      0.624    0.551      0.057    0.558     0.568     
+

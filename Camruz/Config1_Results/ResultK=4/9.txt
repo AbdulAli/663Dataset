@@ -1,0 +1,98 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration1\dataK=4\9tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration1\dataK=4\9test.csv
+
+J48 pruned tree
+------------------
+
+amc <= 4.39479
+|   loc <= 6.314096
+|   |   npm <= 1.722767
+|   |   |   npm <= 0.336472
+|   |   |   |   max_cc <= 2.079442
+|   |   |   |   |   cam <= 0.392042: YES (89.0/40.0)
+|   |   |   |   |   cam > 0.392042: NO (33.0/8.0)
+|   |   |   |   max_cc > 2.079442: NO (18.0/1.0)
+|   |   |   npm > 0.336472
+|   |   |   |   lcom3 <= 0.869738
+|   |   |   |   |   cam <= 0.641854
+|   |   |   |   |   |   dam <= 1.062143: YES (85.0/12.0)
+|   |   |   |   |   |   dam > 1.062143
+|   |   |   |   |   |   |   ca <= 2.197225
+|   |   |   |   |   |   |   |   wmc <= 1.504077: YES (13.0/3.0)
+|   |   |   |   |   |   |   |   wmc > 1.504077
+|   |   |   |   |   |   |   |   |   wmc <= 1.791759: NO (38.0/13.0)
+|   |   |   |   |   |   |   |   |   wmc > 1.791759
+|   |   |   |   |   |   |   |   |   |   moa <= 0
+|   |   |   |   |   |   |   |   |   |   |   wmc <= 2.014903
+|   |   |   |   |   |   |   |   |   |   |   |   max_cc <= 2.079442: NO (9.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   max_cc > 2.079442: YES (2.0)
+|   |   |   |   |   |   |   |   |   |   |   wmc > 2.014903
+|   |   |   |   |   |   |   |   |   |   |   |   amc <= 3.794113: NO (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   amc > 3.794113: YES (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   moa > 0
+|   |   |   |   |   |   |   |   |   |   |   cam <= 0.311213: NO (2.0)
+|   |   |   |   |   |   |   |   |   |   |   cam > 0.311213: YES (8.0)
+|   |   |   |   |   |   |   ca > 2.197225: YES (12.0/2.0)
+|   |   |   |   |   cam > 0.641854: YES (23.0/1.0)
+|   |   |   |   lcom3 > 0.869738
+|   |   |   |   |   dit <= 1.098612: YES (156.0/65.0)
+|   |   |   |   |   dit > 1.098612: NO (201.0/87.0)
+|   |   npm > 1.722767
+|   |   |   cam <= 0.180998: YES (87.0/8.0)
+|   |   |   cam > 0.180998
+|   |   |   |   mfa <= 0.405424
+|   |   |   |   |   moa <= 0
+|   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   dit <= 0.693147: YES (191.0/63.0)
+|   |   |   |   |   |   |   dit > 0.693147
+|   |   |   |   |   |   |   |   lcom3 <= 0.869738
+|   |   |   |   |   |   |   |   |   dam <= 1.055553
+|   |   |   |   |   |   |   |   |   |   lcom3 <= 0.423451: NO (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   lcom3 > 0.423451
+|   |   |   |   |   |   |   |   |   |   |   mfa <= 0.356172
+|   |   |   |   |   |   |   |   |   |   |   |   dit <= 1.386294: YES (16.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   dit > 1.386294: NO (3.0)
+|   |   |   |   |   |   |   |   |   |   |   mfa > 0.356172: YES (22.0)
+|   |   |   |   |   |   |   |   |   dam > 1.055553
+|   |   |   |   |   |   |   |   |   |   mfa <= 0.253996: YES (15.0/2.0)
+|   |   |   |   |   |   |   |   |   |   mfa > 0.253996
+|   |   |   |   |   |   |   |   |   |   |   ic <= 0.693147: NO (34.0/12.0)
+|   |   |   |   |   |   |   |   |   |   |   ic > 0.693147: YES (31.0/12.0)
+|   |   |   |   |   |   |   |   lcom3 > 0.869738: NO (42.0/16.0)
+|   |   |   |   |   |   noc > 0: YES (45.0/10.0)
+|   |   |   |   |   moa > 0: YES (330.0/84.0)
+|   |   |   |   mfa > 0.405424: YES (26.0/1.0)
+|   loc > 6.314096: YES (178.0/10.0)
+amc > 4.39479: YES (242.0/3.0)
+
+Number of Leaves  : 	31
+
+Size of the tree : 	61
+
+
+Correctly Classified Instances        2481               58.9031 %
+Incorrectly Classified Instances      1731               41.0969 %
+Kappa statistic                         -0.0668
+Mean absolute error                      0.456 
+Root mean squared error                  0.5703
+Relative absolute error                 98.0315 %
+Root relative squared error            118.2541 %
+Coverage of cases (0.95 level)          88.5565 %
+Mean rel. region size (0.95 level)      87.0489 %
+Total Number of Instances             4212     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2434  228 |    a = NO
+ 1503   47 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.914    0.970    0.618      0.914    0.738      -0.108   0.379     0.573     NO
+                 0.030    0.086    0.171      0.030    0.052      -0.108   0.379     0.304     YES
+Weighted Avg.    0.589    0.644    0.454      0.589    0.485      -0.108   0.379     0.474     
+

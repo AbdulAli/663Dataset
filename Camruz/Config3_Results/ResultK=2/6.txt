@@ -1,0 +1,100 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration3\dataK=2\6tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration3\dataK=2\6test.csv
+
+J48 pruned tree
+------------------
+
+loc <= 4.995912
+|   cbm <= 1.791759: NO (714.0/133.0)
+|   cbm > 1.791759
+|   |   lcom <= 0.559616: NO (43.0/3.0)
+|   |   lcom > 0.559616
+|   |   |   ce <= 1.89712
+|   |   |   |   max_cc <= 0.693147: NO (68.0/30.0)
+|   |   |   |   max_cc > 0.693147
+|   |   |   |   |   lcom3 <= 0.367244: NO (6.0/2.0)
+|   |   |   |   |   lcom3 > 0.367244: YES (25.0/6.0)
+|   |   |   ce > 1.89712
+|   |   |   |   rfc <= 3.324236: NO (24.0/2.0)
+|   |   |   |   rfc > 3.324236
+|   |   |   |   |   cbo <= 3.091042: YES (6.0/2.0)
+|   |   |   |   |   cbo > 3.091042: NO (3.0/1.0)
+loc > 4.995912
+|   cbm <= 2.890372
+|   |   wmc <= 3.7612
+|   |   |   ce <= 2.685577
+|   |   |   |   lcom3 <= 0.855185: NO (397.0/177.0)
+|   |   |   |   lcom3 > 0.855185
+|   |   |   |   |   dit <= 1.098612
+|   |   |   |   |   |   cbm <= 0.693147
+|   |   |   |   |   |   |   wmc <= 2.197225
+|   |   |   |   |   |   |   |   wmc <= 1.386294
+|   |   |   |   |   |   |   |   |   max_cc <= 1.791759: YES (9.0/3.0)
+|   |   |   |   |   |   |   |   |   max_cc > 1.791759: NO (2.0)
+|   |   |   |   |   |   |   |   wmc > 1.386294: YES (7.0)
+|   |   |   |   |   |   |   wmc > 2.197225: NO (2.0)
+|   |   |   |   |   |   cbm > 0.693147: NO (3.0)
+|   |   |   |   |   dit > 1.098612: YES (18.0/1.0)
+|   |   |   ce > 2.685577
+|   |   |   |   ic <= 0: NO (9.0)
+|   |   |   |   ic > 0
+|   |   |   |   |   lcom3 <= 0.35692: NO (20.0/1.0)
+|   |   |   |   |   lcom3 > 0.35692
+|   |   |   |   |   |   cbm <= 2.197225
+|   |   |   |   |   |   |   moa <= 1.386294
+|   |   |   |   |   |   |   |   loc <= 6.822574: NO (45.0/7.0)
+|   |   |   |   |   |   |   |   loc > 6.822574: YES (3.0)
+|   |   |   |   |   |   |   moa > 1.386294
+|   |   |   |   |   |   |   |   ca <= 2.197225: YES (9.0/3.0)
+|   |   |   |   |   |   |   |   ca > 2.197225: NO (2.0)
+|   |   |   |   |   |   cbm > 2.197225
+|   |   |   |   |   |   |   npm <= 2.397895
+|   |   |   |   |   |   |   |   cbo <= 3.555348
+|   |   |   |   |   |   |   |   |   dam <= 0.965081: YES (2.0)
+|   |   |   |   |   |   |   |   |   dam > 0.965081
+|   |   |   |   |   |   |   |   |   |   cbm <= 2.397895: YES (3.0)
+|   |   |   |   |   |   |   |   |   |   cbm > 2.397895: NO (2.0)
+|   |   |   |   |   |   |   |   cbo > 3.555348: NO (3.0)
+|   |   |   |   |   |   |   npm > 2.397895: YES (7.0)
+|   |   wmc > 3.7612
+|   |   |   avg_cc <= 0.788457
+|   |   |   |   lcom3 <= 0.555331: YES (2.0)
+|   |   |   |   lcom3 > 0.555331: NO (12.0/2.0)
+|   |   |   avg_cc > 0.788457
+|   |   |   |   avg_cc <= 0.930154: YES (19.0)
+|   |   |   |   avg_cc > 0.930154
+|   |   |   |   |   npm <= 3.401197: NO (3.0)
+|   |   |   |   |   npm > 3.401197: YES (29.0/7.0)
+|   cbm > 2.890372: YES (29.0/7.0)
+
+Number of Leaves  : 	32
+
+Size of the tree : 	63
+
+
+Correctly Classified Instances        6813               70.7771 %
+Incorrectly Classified Instances      2813               29.2229 %
+Kappa statistic                          0.0746
+Mean absolute error                      0.3833
+Root mean squared error                  0.4625
+Relative absolute error                 92.4344 %
+Root relative squared error            101.5644 %
+Coverage of cases (0.95 level)          96.9354 %
+Mean rel. region size (0.95 level)      96.8159 %
+Total Number of Instances             9626     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 6547  254 |    a = NO
+ 2559  266 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.963    0.906    0.719      0.963    0.823      0.114    0.580     0.742     NO
+                 0.094    0.037    0.512      0.094    0.159      0.114    0.580     0.359     YES
+Weighted Avg.    0.708    0.651    0.658      0.708    0.628      0.114    0.580     0.630     
+

@@ -1,0 +1,64 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration1\dataK=1\13tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Camruz\Configuration1\dataK=1\13test.csv
+
+J48 pruned tree
+------------------
+
+rfc <= 3.596591
+|   max_cc <= 1.791759
+|   |   ce <= 0.405465
+|   |   |   ic <= 0
+|   |   |   |   amc <= 3.372798: NO (70.0/15.0)
+|   |   |   |   amc > 3.372798: YES (6.0/1.0)
+|   |   |   ic > 0
+|   |   |   |   avg_cc <= 0.619016: NO (11.0/1.0)
+|   |   |   |   avg_cc > 0.619016
+|   |   |   |   |   lcom <= 1.252763: YES (6.0)
+|   |   |   |   |   lcom > 1.252763
+|   |   |   |   |   |   ca <= 0.980829
+|   |   |   |   |   |   |   npm <= 1.455287
+|   |   |   |   |   |   |   |   mfa <= 0.665635: NO (3.0)
+|   |   |   |   |   |   |   |   mfa > 0.665635: YES (2.0)
+|   |   |   |   |   |   |   npm > 1.455287: YES (4.0)
+|   |   |   |   |   |   ca > 0.980829: NO (3.0)
+|   |   ce > 0.405465
+|   |   |   ca <= 0.287682
+|   |   |   |   lcom3 <= 0.45296: YES (6.0/1.0)
+|   |   |   |   lcom3 > 0.45296: NO (4.0)
+|   |   |   ca > 0.287682: YES (14.0/3.0)
+|   max_cc > 1.791759: NO (20.0/2.0)
+rfc > 3.596591
+|   cbo <= 1.475907: NO (2.0)
+|   cbo > 1.475907: YES (44.0/4.0)
+
+Number of Leaves  : 	14
+
+Size of the tree : 	27
+
+
+Correctly Classified Instances        1163               57.0098 %
+Incorrectly Classified Instances       877               42.9902 %
+Kappa statistic                          0.1904
+Mean absolute error                      0.4489
+Root mean squared error                  0.5759
+Relative absolute error                140.7326 %
+Root relative squared error            144.2285 %
+Coverage of cases (0.95 level)          97.0588 %
+Mean rel. region size (0.95 level)      94.6078 %
+Total Number of Instances             2040     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 836 798 |   a = NO
+  79 327 |   b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.512    0.195    0.914      0.512    0.656      0.255    0.674     0.865     NO
+                 0.805    0.488    0.291      0.805    0.427      0.255    0.674     0.312     YES
+Weighted Avg.    0.570    0.253    0.790      0.570    0.610      0.255    0.674     0.755     
+
