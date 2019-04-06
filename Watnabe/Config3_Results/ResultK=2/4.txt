@@ -1,0 +1,112 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=2\4tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=2\4test.csv
+
+J48 pruned tree
+------------------
+
+cbo <= 0
+|   avg_cc <= 0.790432
+|   |   dam <= 1.47946
+|   |   |   loc <= 7.819043: NO (7.0)
+|   |   |   loc > 7.819043
+|   |   |   |   dit <= 1.131315
+|   |   |   |   |   wmc <= 0: NO (3.0/1.0)
+|   |   |   |   |   wmc > 0: YES (7.0)
+|   |   |   |   dit > 1.131315: NO (12.0/3.0)
+|   |   dam > 1.47946: NO (4.0)
+|   avg_cc > 0.790432: NO (126.0/7.0)
+cbo > 0
+|   wmc <= 11.705927
+|   |   cbm <= 4.11429
+|   |   |   dam <= 1.268109
+|   |   |   |   lcom3 <= 0.74682
+|   |   |   |   |   loc <= 414.409273
+|   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   ca <= 4.463724: NO (135.0/52.0)
+|   |   |   |   |   |   |   ca > 4.463724
+|   |   |   |   |   |   |   |   rfc <= 9.26981: YES (4.0)
+|   |   |   |   |   |   |   |   rfc > 9.26981
+|   |   |   |   |   |   |   |   |   cbo <= 14.773311: NO (4.0/1.0)
+|   |   |   |   |   |   |   |   |   cbo > 14.773311: YES (5.0)
+|   |   |   |   |   |   noc > 0
+|   |   |   |   |   |   |   noc <= 4.591651: YES (6.0)
+|   |   |   |   |   |   |   noc > 4.591651: NO (3.0/1.0)
+|   |   |   |   |   loc > 414.409273: YES (13.0)
+|   |   |   |   lcom3 > 0.74682
+|   |   |   |   |   dit <= 3.393944
+|   |   |   |   |   |   ca <= 0
+|   |   |   |   |   |   |   cam <= 0.858981
+|   |   |   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   |   |   loc <= 93.828515: YES (20.0/5.0)
+|   |   |   |   |   |   |   |   |   loc > 93.828515: NO (13.0/4.0)
+|   |   |   |   |   |   |   |   ic > 0: NO (3.0/1.0)
+|   |   |   |   |   |   |   cam > 0.858981: NO (4.0)
+|   |   |   |   |   |   ca > 0
+|   |   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   |   mfa <= 1.064421
+|   |   |   |   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   |   |   |   npm <= 3.760382
+|   |   |   |   |   |   |   |   |   |   |   rfc <= 2.648517: YES (71.0/16.0)
+|   |   |   |   |   |   |   |   |   |   |   rfc > 2.648517
+|   |   |   |   |   |   |   |   |   |   |   |   cam <= 0.51422: YES (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   cam > 0.51422
+|   |   |   |   |   |   |   |   |   |   |   |   |   wmc <= 2.341185
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   lcom3 <= 1.315682: YES (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   lcom3 > 1.315682: NO (13.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   wmc > 2.341185
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ce <= 1.700863: NO (7.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ce > 1.700863: YES (4.0)
+|   |   |   |   |   |   |   |   |   |   npm > 3.760382: YES (52.0/5.0)
+|   |   |   |   |   |   |   |   |   noc > 0
+|   |   |   |   |   |   |   |   |   |   npm <= 8.774224: YES (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   npm > 8.774224: NO (3.0)
+|   |   |   |   |   |   |   |   mfa > 1.064421: YES (11.0)
+|   |   |   |   |   |   |   ic > 0
+|   |   |   |   |   |   |   |   ca <= 1.487908
+|   |   |   |   |   |   |   |   |   amc <= 21.258844: NO (8.0/1.0)
+|   |   |   |   |   |   |   |   |   amc > 21.258844: YES (3.0)
+|   |   |   |   |   |   |   |   ca > 1.487908
+|   |   |   |   |   |   |   |   |   ce <= 0: NO (3.0/1.0)
+|   |   |   |   |   |   |   |   |   ce > 0: YES (15.0)
+|   |   |   |   |   dit > 3.393944
+|   |   |   |   |   |   cbm <= 1.37143: YES (46.0/4.0)
+|   |   |   |   |   |   cbm > 1.37143: NO (3.0/1.0)
+|   |   |   dam > 1.268109: YES (125.0/21.0)
+|   |   cbm > 4.11429
+|   |   |   cam <= 0.599923: YES (59.0/1.0)
+|   |   |   cam > 0.599923
+|   |   |   |   lcom <= 6.638151: NO (3.0)
+|   |   |   |   lcom > 6.638151: YES (2.0)
+|   wmc > 11.705927: YES (224.0/10.0)
+
+Number of Leaves  : 	38
+
+Size of the tree : 	75
+
+
+Correctly Classified Instances        6304               48.6946 %
+Incorrectly Classified Instances      6642               51.3054 %
+Kappa statistic                         -0.1256
+Mean absolute error                      0.4828
+Root mean squared error                  0.6125
+Relative absolute error                105.071  %
+Root relative squared error            127.7811 %
+Coverage of cases (0.95 level)          78.0087 %
+Mean rel. region size (0.95 level)      77.2517 %
+Total Number of Instances            12946     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 5078 3237 |    a = NO
+ 3405 1226 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.611    0.735    0.599      0.611    0.605      -0.126   0.407     0.595     NO
+                 0.265    0.389    0.275      0.265    0.270      -0.126   0.407     0.319     YES
+Weighted Avg.    0.487    0.612    0.483      0.487    0.485      -0.126   0.407     0.496     
+
