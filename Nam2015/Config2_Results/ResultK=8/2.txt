@@ -1,0 +1,40 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=8\2tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=8\2test.csv
+
+J48 pruned tree
+------------------
+
+loc <= 42: YES (271.0)
+loc > 42: NO (252.0)
+
+Number of Leaves  : 	2
+
+Size of the tree : 	3
+
+
+Correctly Classified Instances        2057               51.6964 %
+Incorrectly Classified Instances      1922               48.3036 %
+Kappa statistic                          0.1494
+Mean absolute error                      0.483 
+Root mean squared error                  0.695 
+Relative absolute error                104.5499 %
+Root relative squared error            144.6058 %
+Coverage of cases (0.95 level)          51.6964 %
+Mean rel. region size (0.95 level)      50      %
+Total Number of Instances             3979     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  813 1725 |    a = NO
+  197 1244 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.320    0.137    0.805      0.320    0.458      0.203    0.592     0.691     NO
+                 0.863    0.680    0.419      0.863    0.564      0.203    0.592     0.411     YES
+Weighted Avg.    0.517    0.333    0.665      0.517    0.497      0.203    0.592     0.590     
+
