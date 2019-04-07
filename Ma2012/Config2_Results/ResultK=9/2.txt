@@ -1,0 +1,84 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=9\2tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=9\2test.csv
+
+J48 pruned tree
+------------------
+
+cbo <= 1
+|   wmc <= 18
+|   |   amc <= 30.5
+|   |   |   avg_cc <= 0.9: YES (44.4/13.12)
+|   |   |   avg_cc > 0.9
+|   |   |   |   cam <= 0.75
+|   |   |   |   |   cam <= 0.666667
+|   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   max_cc <= 1
+|   |   |   |   |   |   |   |   lcom3 <= 1.5: YES (3.03)
+|   |   |   |   |   |   |   |   lcom3 > 1.5
+|   |   |   |   |   |   |   |   |   cam <= 0.52381: NO (30.27/8.07)
+|   |   |   |   |   |   |   |   |   cam > 0.52381: YES (17.15/5.05)
+|   |   |   |   |   |   |   max_cc > 1: NO (5.05/2.02)
+|   |   |   |   |   |   noc > 0: NO (3.03)
+|   |   |   |   |   cam > 0.666667: NO (28.25/2.02)
+|   |   |   |   cam > 0.75: YES (30.27/9.08)
+|   |   amc > 30.5: NO (14.13/1.01)
+|   wmc > 18: NO (20.18/1.01)
+cbo > 1
+|   rfc <= 39
+|   |   noc <= 0: NO (297.0/21.19)
+|   |   noc > 0
+|   |   |   ic <= 2
+|   |   |   |   loc <= 77: NO (15.14)
+|   |   |   |   loc > 77
+|   |   |   |   |   cbo <= 9
+|   |   |   |   |   |   moa <= 1
+|   |   |   |   |   |   |   noc <= 1: NO (7.06/1.01)
+|   |   |   |   |   |   |   noc > 1: YES (4.04/1.01)
+|   |   |   |   |   |   moa > 1: YES (5.05/1.01)
+|   |   |   |   |   cbo > 9: NO (5.05)
+|   |   |   ic > 2: YES (2.02)
+|   rfc > 39
+|   |   cbm <= 12
+|   |   |   ce <= 22
+|   |   |   |   lcom <= 30: YES (14.47/4.04)
+|   |   |   |   lcom > 30
+|   |   |   |   |   noc <= 0: NO (31.14/4.71)
+|   |   |   |   |   noc > 0
+|   |   |   |   |   |   loc <= 1643
+|   |   |   |   |   |   |   mfa <= 0.75: YES (8.07/1.01)
+|   |   |   |   |   |   |   mfa > 0.75: NO (2.02)
+|   |   |   |   |   |   loc > 1643: NO (4.38)
+|   |   |   ce > 22: YES (4.09)
+|   |   cbm > 12: YES (6.73)
+
+Number of Leaves  : 	24
+
+Size of the tree : 	47
+
+
+Correctly Classified Instances        2228               45.581  %
+Incorrectly Classified Instances      2660               54.419  %
+Kappa statistic                         -0.0631
+Mean absolute error                      0.5405
+Root mean squared error                  0.6744
+Relative absolute error                108.2984 %
+Root relative squared error            135.0143 %
+Coverage of cases (0.95 level)          92.2054 %
+Mean rel. region size (0.95 level)      93.4636 %
+Total Number of Instances             4888     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  489 2060 |    a = NO
+  600 1739 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.192    0.257    0.449      0.192    0.269      -0.078   0.416     0.486     NO
+                 0.743    0.808    0.458      0.743    0.567      -0.078   0.416     0.432     YES
+Weighted Avg.    0.456    0.520    0.453      0.456    0.411      -0.078   0.416     0.460     
+

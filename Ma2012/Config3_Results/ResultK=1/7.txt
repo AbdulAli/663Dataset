@@ -1,0 +1,136 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=1\7tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=1\7test.csv
+
+J48 pruned tree
+------------------
+
+rfc <= 71
+|   amc <= 8.444444
+|   |   cbm <= 5
+|   |   |   max_cc <= 0
+|   |   |   |   cam <= 0.722222: NO (10.05/1.0)
+|   |   |   |   cam > 0.722222
+|   |   |   |   |   loc <= 18
+|   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   loc <= 4: YES (8.04/2.01)
+|   |   |   |   |   |   |   loc > 4
+|   |   |   |   |   |   |   |   ca <= 1: NO (11.05/1.0)
+|   |   |   |   |   |   |   |   ca > 1: YES (5.02)
+|   |   |   |   |   |   noc > 0: NO (4.02)
+|   |   |   |   |   loc > 18: YES (3.01)
+|   |   |   max_cc > 0
+|   |   |   |   lcom3 <= 0.238095: NO (16.07)
+|   |   |   |   lcom3 > 0.238095
+|   |   |   |   |   lcom3 <= 0.625
+|   |   |   |   |   |   dam <= 0.25: NO (6.03/1.0)
+|   |   |   |   |   |   dam > 0.25: YES (9.04/1.0)
+|   |   |   |   |   lcom3 > 0.625
+|   |   |   |   |   |   moa <= 0
+|   |   |   |   |   |   |   dam <= 0.5
+|   |   |   |   |   |   |   |   ce <= 4
+|   |   |   |   |   |   |   |   |   mfa <= 0.977064
+|   |   |   |   |   |   |   |   |   |   ce <= 1: NO (58.26/9.04)
+|   |   |   |   |   |   |   |   |   |   ce > 1
+|   |   |   |   |   |   |   |   |   |   |   wmc <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   ca <= 1: NO (17.08)
+|   |   |   |   |   |   |   |   |   |   |   |   ca > 1: YES (8.04/1.0)
+|   |   |   |   |   |   |   |   |   |   |   wmc > 6: NO (5.02/1.0)
+|   |   |   |   |   |   |   |   |   mfa > 0.977064
+|   |   |   |   |   |   |   |   |   |   npm <= 2: NO (3.01/1.0)
+|   |   |   |   |   |   |   |   |   |   npm > 2: YES (3.01)
+|   |   |   |   |   |   |   |   ce > 4: NO (18.08)
+|   |   |   |   |   |   |   dam > 0.5: NO (13.06)
+|   |   |   |   |   |   moa > 0
+|   |   |   |   |   |   |   lcom3 <= 0.841667
+|   |   |   |   |   |   |   |   ca <= 3: NO (2.01)
+|   |   |   |   |   |   |   |   ca > 3: YES (4.02)
+|   |   |   |   |   |   |   lcom3 > 0.841667: NO (6.03)
+|   |   cbm > 5
+|   |   |   lcom3 <= 0.583333: NO (3.69)
+|   |   |   lcom3 > 0.583333
+|   |   |   |   npm <= 31: YES (14.06)
+|   |   |   |   npm > 31: NO (2.01)
+|   amc > 8.444444
+|   |   mfa <= 0.987013
+|   |   |   lcom <= 0
+|   |   |   |   ic <= 0
+|   |   |   |   |   max_cc <= 8
+|   |   |   |   |   |   cam <= 0.22: NO (6.03)
+|   |   |   |   |   |   cam > 0.22
+|   |   |   |   |   |   |   dit <= 1
+|   |   |   |   |   |   |   |   lcom3 <= 0.142857: NO (7.03)
+|   |   |   |   |   |   |   |   lcom3 > 0.142857: YES (52.23/14.06)
+|   |   |   |   |   |   |   dit > 1
+|   |   |   |   |   |   |   |   amc <= 11.875: YES (6.03)
+|   |   |   |   |   |   |   |   amc > 11.875: NO (7.03/1.0)
+|   |   |   |   |   max_cc > 8: NO (7.03)
+|   |   |   |   ic > 0
+|   |   |   |   |   dit <= 5: NO (77.35/19.09)
+|   |   |   |   |   dit > 5
+|   |   |   |   |   |   npm <= 6: YES (4.02)
+|   |   |   |   |   |   npm > 6: NO (2.01)
+|   |   |   lcom > 0
+|   |   |   |   noc <= 3
+|   |   |   |   |   lcom3 <= 0.733333
+|   |   |   |   |   |   dam <= 0.015625: YES (27.47/1.0)
+|   |   |   |   |   |   dam > 0.015625
+|   |   |   |   |   |   |   lcom3 <= 0.625
+|   |   |   |   |   |   |   |   ic <= 2
+|   |   |   |   |   |   |   |   |   dam <= 0.730769: NO (6.7/1.68)
+|   |   |   |   |   |   |   |   |   dam > 0.730769
+|   |   |   |   |   |   |   |   |   |   lcom <= 2: NO (10.72/3.69)
+|   |   |   |   |   |   |   |   |   |   lcom > 2
+|   |   |   |   |   |   |   |   |   |   |   lcom <= 13: YES (18.08/1.0)
+|   |   |   |   |   |   |   |   |   |   |   lcom > 13
+|   |   |   |   |   |   |   |   |   |   |   |   ce <= 4: YES (3.01)
+|   |   |   |   |   |   |   |   |   |   |   |   ce > 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   max_cc <= 7: NO (6.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   max_cc > 7: YES (4.02/1.0)
+|   |   |   |   |   |   |   |   ic > 2: NO (7.03/1.0)
+|   |   |   |   |   |   |   lcom3 > 0.625: YES (16.07/1.0)
+|   |   |   |   |   lcom3 > 0.733333
+|   |   |   |   |   |   amc <= 618.333333
+|   |   |   |   |   |   |   amc <= 336.666667
+|   |   |   |   |   |   |   |   cam <= 0.777778
+|   |   |   |   |   |   |   |   |   wmc <= 23: YES (149.34/55.25)
+|   |   |   |   |   |   |   |   |   wmc > 23: NO (8.04/1.0)
+|   |   |   |   |   |   |   |   cam > 0.777778: NO (14.06)
+|   |   |   |   |   |   |   amc > 336.666667: YES (10.05)
+|   |   |   |   |   |   amc > 618.333333: NO (9.04)
+|   |   |   |   noc > 3
+|   |   |   |   |   loc <= 68: NO (2.01)
+|   |   |   |   |   loc > 68: YES (14.06)
+|   |   mfa > 0.987013: NO (25.11/4.02)
+rfc > 71: YES (73.69/15.07)
+
+Number of Leaves  : 	50
+
+Size of the tree : 	99
+
+
+Correctly Classified Instances        4639               48.1924 %
+Incorrectly Classified Instances      4987               51.8076 %
+Kappa statistic                         -0.1007
+Mean absolute error                      0.5294
+Root mean squared error                  0.6365
+Relative absolute error                127.6475 %
+Root relative squared error            139.7748 %
+Coverage of cases (0.95 level)          85.2171 %
+Mean rel. region size (0.95 level)      88.2402 %
+Total Number of Instances             9626     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 3655 3146 |    a = NO
+ 1841  984 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.537    0.652    0.665      0.537    0.594      -0.105   0.455     0.693     NO
+                 0.348    0.463    0.238      0.348    0.283      -0.105   0.455     0.270     YES
+Weighted Avg.    0.482    0.596    0.540      0.482    0.503      -0.105   0.455     0.569     
+

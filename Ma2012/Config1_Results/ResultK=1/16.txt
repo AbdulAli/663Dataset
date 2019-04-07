@@ -1,0 +1,60 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration1\dataK=1\16tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration1\dataK=1\16test.csv
+
+J48 pruned tree
+------------------
+
+ce <= 9
+|   npm <= 9: NO (138.55/12.37)
+|   npm > 9
+|   |   moa <= 1: NO (9.41/1.57)
+|   |   moa > 1: YES (5.38/0.79)
+ce > 9
+|   moa <= 1
+|   |   dit <= 1
+|   |   |   avg_cc <= 0.8333: NO (4.73)
+|   |   |   avg_cc > 0.8333
+|   |   |   |   npm <= 7
+|   |   |   |   |   lcom <= 15
+|   |   |   |   |   |   npm <= 4
+|   |   |   |   |   |   |   avg_cc <= 1.9
+|   |   |   |   |   |   |   |   cam <= 0.35: NO (4.59)
+|   |   |   |   |   |   |   |   cam > 0.35: YES (2.79/0.79)
+|   |   |   |   |   |   |   avg_cc > 1.9: YES (10.55/0.65)
+|   |   |   |   |   |   npm > 4: NO (2.33)
+|   |   |   |   |   lcom > 15: YES (9.91)
+|   |   |   |   npm > 7: NO (3.23/0.27)
+|   |   dit > 1: NO (26.73/6.15)
+|   moa > 1: YES (3.8/0.23)
+
+Number of Leaves  : 	12
+
+Size of the tree : 	23
+
+
+Correctly Classified Instances           5               50      %
+Incorrectly Classified Instances         5               50      %
+Kappa statistic                          0     
+Mean absolute error                      0.4922
+Root mean squared error                  0.6403
+Relative absolute error                 98.4402 %
+Root relative squared error            128.0581 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)     100      %
+Total Number of Instances               10     
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 4 1 | a = NO
+ 4 1 | b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.800    0.800    0.500      0.800    0.615      0.000    0.580     0.557     NO
+                 0.200    0.200    0.500      0.200    0.286      0.000    0.580     0.533     YES
+Weighted Avg.    0.500    0.500    0.500      0.500    0.451      0.000    0.580     0.545     
+

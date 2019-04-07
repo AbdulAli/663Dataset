@@ -1,0 +1,168 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=2\3tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=2\3test.csv
+
+J48 pruned tree
+------------------
+
+cbo <= 0
+|   amc <= 2.2: NO (206.05/5.0)
+|   amc > 2.2
+|   |   moa <= 1
+|   |   |   wmc <= 18
+|   |   |   |   avg_cc <= 0.9091
+|   |   |   |   |   dam <= 0.666667
+|   |   |   |   |   |   dit <= 2: YES (15.0/5.0)
+|   |   |   |   |   |   dit > 2: NO (21.01/3.0)
+|   |   |   |   |   dam > 0.666667: NO (9.0)
+|   |   |   |   avg_cc > 0.9091: NO (22.01)
+|   |   |   wmc > 18: YES (3.0)
+|   |   moa > 1: NO (8.0)
+cbo > 0
+|   cbm <= 6
+|   |   ce <= 8
+|   |   |   cbo <= 10
+|   |   |   |   dam <= 0.285714
+|   |   |   |   |   lcom3 <= 0.885965
+|   |   |   |   |   |   max_cc <= 9
+|   |   |   |   |   |   |   loc <= 318
+|   |   |   |   |   |   |   |   ce <= 0
+|   |   |   |   |   |   |   |   |   ic <= 0: YES (9.0/3.0)
+|   |   |   |   |   |   |   |   |   ic > 0: NO (2.0)
+|   |   |   |   |   |   |   |   ce > 0
+|   |   |   |   |   |   |   |   |   amc <= 22.428571: NO (52.01/5.0)
+|   |   |   |   |   |   |   |   |   amc > 22.428571
+|   |   |   |   |   |   |   |   |   |   wmc <= 6: NO (27.01/4.0)
+|   |   |   |   |   |   |   |   |   |   wmc > 6
+|   |   |   |   |   |   |   |   |   |   |   loc <= 239: YES (4.0)
+|   |   |   |   |   |   |   |   |   |   |   loc > 239: NO (9.0)
+|   |   |   |   |   |   |   loc > 318: YES (14.0/5.0)
+|   |   |   |   |   |   max_cc > 9
+|   |   |   |   |   |   |   cam <= 0.277778: NO (3.0/1.0)
+|   |   |   |   |   |   |   cam > 0.277778: YES (5.0)
+|   |   |   |   |   lcom3 > 0.885965
+|   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   max_cc <= 2
+|   |   |   |   |   |   |   |   max_cc <= 0
+|   |   |   |   |   |   |   |   |   ce <= 1
+|   |   |   |   |   |   |   |   |   |   npm <= 0: NO (23.01/8.0)
+|   |   |   |   |   |   |   |   |   |   npm > 0: YES (14.0/6.0)
+|   |   |   |   |   |   |   |   |   ce > 1: YES (8.0/1.0)
+|   |   |   |   |   |   |   |   max_cc > 0
+|   |   |   |   |   |   |   |   |   avg_cc <= 0.5556: NO (13.0/2.0)
+|   |   |   |   |   |   |   |   |   avg_cc > 0.5556: YES (208.05/97.02)
+|   |   |   |   |   |   |   max_cc > 2: NO (46.01/18.0)
+|   |   |   |   |   |   ic > 0
+|   |   |   |   |   |   |   wmc <= 4: NO (20.01/4.0)
+|   |   |   |   |   |   |   wmc > 4
+|   |   |   |   |   |   |   |   ce <= 4: NO (87.02/42.01)
+|   |   |   |   |   |   |   |   ce > 4: YES (7.0/1.0)
+|   |   |   |   dam > 0.285714
+|   |   |   |   |   cbo <= 1
+|   |   |   |   |   |   rfc <= 11: NO (11.0)
+|   |   |   |   |   |   rfc > 11
+|   |   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   |   rfc <= 14: YES (2.0)
+|   |   |   |   |   |   |   |   rfc > 14: NO (7.0/2.0)
+|   |   |   |   |   |   |   ic > 0: YES (2.0)
+|   |   |   |   |   cbo > 1
+|   |   |   |   |   |   ce <= 6
+|   |   |   |   |   |   |   moa <= 2
+|   |   |   |   |   |   |   |   cbo <= 5
+|   |   |   |   |   |   |   |   |   dit <= 1: YES (27.01/5.0)
+|   |   |   |   |   |   |   |   |   dit > 1
+|   |   |   |   |   |   |   |   |   |   max_cc <= 1
+|   |   |   |   |   |   |   |   |   |   |   dit <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   ic <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   cbm <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   loc <= 64: NO (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   loc > 64: YES (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   cbm > 1: NO (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ic > 1: YES (3.0)
+|   |   |   |   |   |   |   |   |   |   |   dit > 3: NO (2.0)
+|   |   |   |   |   |   |   |   |   |   max_cc > 1: YES (29.01/7.0)
+|   |   |   |   |   |   |   |   cbo > 5
+|   |   |   |   |   |   |   |   |   cbm <= 1
+|   |   |   |   |   |   |   |   |   |   mfa <= 0.738318
+|   |   |   |   |   |   |   |   |   |   |   cbo <= 7
+|   |   |   |   |   |   |   |   |   |   |   |   ca <= 0: YES (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   ca > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   cbo <= 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   lcom <= 22: NO (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   lcom > 22
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   avg_cc <= 1.3571: YES (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   avg_cc > 1.3571: NO (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   cbo > 6
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   cam <= 0.341667: NO (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   cam > 0.341667: YES (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ic > 0: NO (2.0)
+|   |   |   |   |   |   |   |   |   |   |   cbo > 7: YES (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   mfa > 0.738318: YES (5.0)
+|   |   |   |   |   |   |   |   |   cbm > 1
+|   |   |   |   |   |   |   |   |   |   cbm <= 2: NO (6.0)
+|   |   |   |   |   |   |   |   |   |   cbm > 2: YES (5.0/2.0)
+|   |   |   |   |   |   |   moa > 2
+|   |   |   |   |   |   |   |   noc <= 2
+|   |   |   |   |   |   |   |   |   ce <= 4: YES (2.0)
+|   |   |   |   |   |   |   |   |   ce > 4: NO (9.0/1.0)
+|   |   |   |   |   |   |   |   noc > 2: NO (2.0)
+|   |   |   |   |   |   ce > 6: YES (22.01/3.0)
+|   |   |   cbo > 10
+|   |   |   |   moa <= 1
+|   |   |   |   |   amc <= 18.75
+|   |   |   |   |   |   moa <= 0
+|   |   |   |   |   |   |   wmc <= 13
+|   |   |   |   |   |   |   |   wmc <= 9
+|   |   |   |   |   |   |   |   |   max_cc <= 2
+|   |   |   |   |   |   |   |   |   |   ce <= 1
+|   |   |   |   |   |   |   |   |   |   |   wmc <= 1: YES (2.0)
+|   |   |   |   |   |   |   |   |   |   |   wmc > 1: NO (18.0/7.0)
+|   |   |   |   |   |   |   |   |   |   ce > 1: YES (8.0/1.0)
+|   |   |   |   |   |   |   |   |   max_cc > 2: YES (2.0)
+|   |   |   |   |   |   |   |   wmc > 9: NO (10.0/2.0)
+|   |   |   |   |   |   |   wmc > 13: YES (7.0/1.0)
+|   |   |   |   |   |   moa > 0
+|   |   |   |   |   |   |   avg_cc <= 1.625: YES (4.0)
+|   |   |   |   |   |   |   avg_cc > 1.625: NO (2.0)
+|   |   |   |   |   amc > 18.75: YES (15.0/1.0)
+|   |   |   |   moa > 1: YES (18.0/1.0)
+|   |   ce > 8
+|   |   |   lcom3 <= 0.780488
+|   |   |   |   moa <= 1
+|   |   |   |   |   max_cc <= 2: NO (3.0)
+|   |   |   |   |   max_cc > 2: YES (6.0)
+|   |   |   |   moa > 1: NO (6.0)
+|   |   |   lcom3 > 0.780488: YES (77.69/9.0)
+|   cbm > 6: YES (82.02/12.0)
+
+Number of Leaves  : 	66
+
+Size of the tree : 	131
+
+
+Correctly Classified Instances        6172               47.675  %
+Incorrectly Classified Instances      6774               52.325  %
+Kappa statistic                          0.0503
+Mean absolute error                      0.5018
+Root mean squared error                  0.6149
+Relative absolute error                109.1928 %
+Root relative squared error            128.2757 %
+Coverage of cases (0.95 level)          88.9464 %
+Mean rel. region size (0.95 level)      88.174  %
+Total Number of Instances            12946     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2848 5467 |    a = NO
+ 1307 3324 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.343    0.282    0.685      0.343    0.457      0.062    0.545     0.671     NO
+                 0.718    0.657    0.378      0.718    0.495      0.062    0.545     0.381     YES
+Weighted Avg.    0.477    0.416    0.576      0.477    0.471      0.062    0.545     0.567     
+

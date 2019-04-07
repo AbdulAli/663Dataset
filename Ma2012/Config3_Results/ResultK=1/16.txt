@@ -1,0 +1,68 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=1\16tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=1\16test.csv
+
+J48 pruned tree
+------------------
+
+ce <= 12
+|   moa <= 1
+|   |   dit <= 1
+|   |   |   moa <= 0
+|   |   |   |   cbo <= 10: NO (49.0/2.0)
+|   |   |   |   cbo > 10
+|   |   |   |   |   wmc <= 2: YES (6.0)
+|   |   |   |   |   wmc > 2
+|   |   |   |   |   |   max_cc <= 11
+|   |   |   |   |   |   |   cam <= 0.30303: YES (5.0/1.0)
+|   |   |   |   |   |   |   cam > 0.30303: NO (18.0/1.0)
+|   |   |   |   |   |   max_cc > 11: YES (2.0)
+|   |   |   moa > 0
+|   |   |   |   npm <= 4: YES (5.0/1.0)
+|   |   |   |   npm > 4: NO (9.0)
+|   |   dit > 1: NO (80.0/9.0)
+|   moa > 1
+|   |   loc <= 159: NO (4.0)
+|   |   loc > 159: YES (7.0)
+ce > 12
+|   mfa <= 0.464286
+|   |   ca <= 1: YES (15.0)
+|   |   ca > 1
+|   |   |   avg_cc <= 1.6296: NO (4.0)
+|   |   |   avg_cc > 1.6296
+|   |   |   |   cam <= 0.190476
+|   |   |   |   |   wmc <= 35: NO (2.0)
+|   |   |   |   |   wmc > 35: YES (2.0)
+|   |   |   |   cam > 0.190476: YES (8.0)
+|   mfa > 0.464286: NO (6.0)
+
+Number of Leaves  : 	16
+
+Size of the tree : 	31
+
+
+Correctly Classified Instances        2727               73.4051 %
+Incorrectly Classified Instances       988               26.5949 %
+Kappa statistic                          0.1144
+Mean absolute error                      0.2941
+Root mean squared error                  0.4882
+Relative absolute error                 80.8393 %
+Root relative squared error            114.4737 %
+Coverage of cases (0.95 level)          85.6258 %
+Mean rel. region size (0.95 level)      71.8304 %
+Total Number of Instances             3715     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2559  268 |    a = NO
+  720  168 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.905    0.811    0.780      0.905    0.838      0.125    0.546     0.774     NO
+                 0.189    0.095    0.385      0.189    0.254      0.125    0.546     0.280     YES
+Weighted Avg.    0.734    0.640    0.686      0.734    0.698      0.125    0.546     0.656     
+

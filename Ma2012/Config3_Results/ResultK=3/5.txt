@@ -1,0 +1,146 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=3\5tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration3\dataK=3\5test.csv
+
+J48 pruned tree
+------------------
+
+loc <= 143
+|   ce <= 9
+|   |   amc <= 7.384615: NO (420.35/99.07)
+|   |   amc > 7.384615
+|   |   |   lcom <= 3
+|   |   |   |   dit <= 5
+|   |   |   |   |   noc <= 0
+|   |   |   |   |   |   npm <= 6
+|   |   |   |   |   |   |   max_cc <= 3
+|   |   |   |   |   |   |   |   npm <= 0: NO (16.06/2.01)
+|   |   |   |   |   |   |   |   npm > 0
+|   |   |   |   |   |   |   |   |   lcom3 <= 0.269231
+|   |   |   |   |   |   |   |   |   |   npm <= 1: YES (3.01/1.0)
+|   |   |   |   |   |   |   |   |   |   npm > 1: NO (38.15/5.02)
+|   |   |   |   |   |   |   |   |   lcom3 > 0.269231
+|   |   |   |   |   |   |   |   |   |   avg_cc <= 0.7: NO (106.42/34.14)
+|   |   |   |   |   |   |   |   |   |   avg_cc > 0.7
+|   |   |   |   |   |   |   |   |   |   |   cbo <= 1: NO (6.02/1.0)
+|   |   |   |   |   |   |   |   |   |   |   cbo > 1: YES (17.07/3.01)
+|   |   |   |   |   |   |   max_cc > 3
+|   |   |   |   |   |   |   |   dit <= 2
+|   |   |   |   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   |   |   |   dam <= 0.5
+|   |   |   |   |   |   |   |   |   |   |   lcom <= 1: YES (11.04/3.01)
+|   |   |   |   |   |   |   |   |   |   |   lcom > 1: NO (3.01/1.0)
+|   |   |   |   |   |   |   |   |   |   dam > 0.5
+|   |   |   |   |   |   |   |   |   |   |   ca <= 5: NO (6.02)
+|   |   |   |   |   |   |   |   |   |   |   ca > 5: YES (2.01)
+|   |   |   |   |   |   |   |   |   ic > 0: YES (3.01)
+|   |   |   |   |   |   |   |   dit > 2: NO (2.01)
+|   |   |   |   |   |   npm > 6
+|   |   |   |   |   |   |   cbm <= 1
+|   |   |   |   |   |   |   |   cbo <= 7: YES (4.02/1.0)
+|   |   |   |   |   |   |   |   cbo > 7: NO (4.02)
+|   |   |   |   |   |   |   cbm > 1: NO (18.07)
+|   |   |   |   |   noc > 0
+|   |   |   |   |   |   lcom <= 0: YES (11.04/5.02)
+|   |   |   |   |   |   lcom > 0
+|   |   |   |   |   |   |   ce <= 4: YES (3.36/1.0)
+|   |   |   |   |   |   |   ce > 4: NO (6.02)
+|   |   |   |   dit > 5: YES (15.4/3.69)
+|   |   |   lcom > 3
+|   |   |   |   dam <= 0.8
+|   |   |   |   |   ce <= 4: YES (43.17/9.04)
+|   |   |   |   |   ce > 4
+|   |   |   |   |   |   cbo <= 6: NO (11.04/1.0)
+|   |   |   |   |   |   cbo > 6: YES (23.44/6.7)
+|   |   |   |   dam > 0.8
+|   |   |   |   |   npm <= 4: YES (5.02/1.0)
+|   |   |   |   |   npm > 4: NO (29.12/8.03)
+|   ce > 9: NO (100.4/11.04)
+loc > 143
+|   lcom3 <= 0.333333: NO (77.31/19.08)
+|   lcom3 > 0.333333
+|   |   lcom <= 5
+|   |   |   ic <= 1
+|   |   |   |   ic <= 0
+|   |   |   |   |   ce <= 11
+|   |   |   |   |   |   loc <= 3479
+|   |   |   |   |   |   |   loc <= 1655
+|   |   |   |   |   |   |   |   loc <= 615: YES (121.48/57.23)
+|   |   |   |   |   |   |   |   loc > 615
+|   |   |   |   |   |   |   |   |   noc <= 0: NO (17.07/1.0)
+|   |   |   |   |   |   |   |   |   noc > 0: YES (3.01/1.0)
+|   |   |   |   |   |   |   loc > 1655: YES (11.04)
+|   |   |   |   |   |   loc > 3479: NO (8.03)
+|   |   |   |   |   ce > 11
+|   |   |   |   |   |   max_cc <= 1: YES (3.01/1.0)
+|   |   |   |   |   |   max_cc > 1: NO (10.04)
+|   |   |   |   ic > 0
+|   |   |   |   |   loc <= 543
+|   |   |   |   |   |   lcom <= 3: NO (46.18/16.06)
+|   |   |   |   |   |   lcom > 3: YES (5.02/1.0)
+|   |   |   |   |   loc > 543: YES (6.37)
+|   |   |   ic > 1
+|   |   |   |   amc <= 44.1875: NO (27.11/1.0)
+|   |   |   |   amc > 44.1875
+|   |   |   |   |   ic <= 2
+|   |   |   |   |   |   dit <= 2: YES (2.01)
+|   |   |   |   |   |   dit > 2
+|   |   |   |   |   |   |   moa <= 3
+|   |   |   |   |   |   |   |   max_cc <= 7: NO (10.04/1.0)
+|   |   |   |   |   |   |   |   max_cc > 7
+|   |   |   |   |   |   |   |   |   npm <= 2: NO (2.01)
+|   |   |   |   |   |   |   |   |   npm > 2: YES (13.05/5.02)
+|   |   |   |   |   |   |   moa > 3: YES (2.01)
+|   |   |   |   |   ic > 2
+|   |   |   |   |   |   lcom <= 3: YES (6.02)
+|   |   |   |   |   |   lcom > 3: NO (2.01)
+|   |   lcom > 5
+|   |   |   ce <= 23: YES (383.59/143.24)
+|   |   |   ce > 23
+|   |   |   |   lcom <= 2147
+|   |   |   |   |   npm <= 12: NO (20.08/2.01)
+|   |   |   |   |   npm > 12
+|   |   |   |   |   |   cbm <= 6
+|   |   |   |   |   |   |   max_cc <= 6: NO (8.03)
+|   |   |   |   |   |   |   max_cc > 6
+|   |   |   |   |   |   |   |   cbm <= 2: YES (4.02)
+|   |   |   |   |   |   |   |   cbm > 2
+|   |   |   |   |   |   |   |   |   cbm <= 3: NO (5.02)
+|   |   |   |   |   |   |   |   |   cbm > 3
+|   |   |   |   |   |   |   |   |   |   ce <= 35
+|   |   |   |   |   |   |   |   |   |   |   amc <= 18.38: YES (2.01)
+|   |   |   |   |   |   |   |   |   |   |   amc > 18.38: NO (8.03/1.0)
+|   |   |   |   |   |   |   |   |   |   ce > 35: YES (3.01)
+|   |   |   |   |   |   cbm > 6: YES (10.04/1.0)
+|   |   |   |   lcom > 2147: YES (6.02)
+
+Number of Leaves  : 	55
+
+Size of the tree : 	109
+
+
+Correctly Classified Instances        3790               39.3725 %
+Incorrectly Classified Instances      5836               60.6275 %
+Kappa statistic                         -0.1617
+Mean absolute error                      0.5679
+Root mean squared error                  0.6201
+Relative absolute error                136.9373 %
+Root relative squared error            136.1783 %
+Coverage of cases (0.95 level)          96.5926 %
+Mean rel. region size (0.95 level)      97.2834 %
+Total Number of Instances             9626     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2634 4167 |    a = NO
+ 1669 1156 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.387    0.591    0.612      0.387    0.474      -0.186   0.408     0.663     NO
+                 0.409    0.613    0.217      0.409    0.284      -0.186   0.408     0.268     YES
+Weighted Avg.    0.394    0.597    0.496      0.394    0.418      -0.186   0.408     0.547     
+

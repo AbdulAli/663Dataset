@@ -1,0 +1,104 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=7\3tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=7\3test.csv
+
+J48 pruned tree
+------------------
+
+wmc <= 46
+|   ic <= 1
+|   |   dit <= 3
+|   |   |   noc <= 0
+|   |   |   |   cbo <= 1
+|   |   |   |   |   ca <= 0
+|   |   |   |   |   |   max_cc <= 0
+|   |   |   |   |   |   |   cam <= 0.833333: YES (14.11/5.04)
+|   |   |   |   |   |   |   cam > 0.833333: NO (8.06/1.01)
+|   |   |   |   |   |   max_cc > 0
+|   |   |   |   |   |   |   lcom3 <= 0.596875
+|   |   |   |   |   |   |   |   loc <= 172: YES (7.06/1.01)
+|   |   |   |   |   |   |   |   loc > 172: NO (18.14/4.03)
+|   |   |   |   |   |   |   lcom3 > 0.596875: NO (242.91/55.44)
+|   |   |   |   |   ca > 0: NO (19.15/2.02)
+|   |   |   |   cbo > 1
+|   |   |   |   |   ce <= 6
+|   |   |   |   |   |   npm <= 19
+|   |   |   |   |   |   |   cbo <= 12: NO (271.15/22.17)
+|   |   |   |   |   |   |   cbo > 12
+|   |   |   |   |   |   |   |   cbo <= 21: YES (5.04/1.01)
+|   |   |   |   |   |   |   |   cbo > 21: NO (12.1)
+|   |   |   |   |   |   npm > 19
+|   |   |   |   |   |   |   avg_cc <= 3.1429
+|   |   |   |   |   |   |   |   wmc <= 20: NO (2.02)
+|   |   |   |   |   |   |   |   wmc > 20: YES (9.07/3.02)
+|   |   |   |   |   |   |   avg_cc > 3.1429: NO (7.06)
+|   |   |   |   |   ce > 6
+|   |   |   |   |   |   avg_cc <= 2.6538
+|   |   |   |   |   |   |   dit <= 1
+|   |   |   |   |   |   |   |   cbo <= 12: NO (9.07/1.01)
+|   |   |   |   |   |   |   |   cbo > 12
+|   |   |   |   |   |   |   |   |   cam <= 0.220497: NO (2.02)
+|   |   |   |   |   |   |   |   |   cam > 0.220497: YES (5.04/1.01)
+|   |   |   |   |   |   |   dit > 1
+|   |   |   |   |   |   |   |   amc <= 21.181818: YES (7.06/2.02)
+|   |   |   |   |   |   |   |   amc > 21.181818: NO (23.2/3.37)
+|   |   |   |   |   |   avg_cc > 2.6538: YES (3.02)
+|   |   |   noc > 0
+|   |   |   |   npm <= 3: NO (10.08)
+|   |   |   |   npm > 3
+|   |   |   |   |   mfa <= 0.818182
+|   |   |   |   |   |   lcom3 <= 0.5: NO (6.05)
+|   |   |   |   |   |   lcom3 > 0.5
+|   |   |   |   |   |   |   lcom <= 202: YES (37.29/13.1)
+|   |   |   |   |   |   |   lcom > 202: NO (5.04)
+|   |   |   |   |   mfa > 0.818182: NO (22.17/3.02)
+|   |   dit > 3
+|   |   |   cbo <= 1
+|   |   |   |   dit <= 4: NO (16.13/6.05)
+|   |   |   |   dit > 4: YES (4.03/1.01)
+|   |   |   cbo > 1: NO (187.48/1.01)
+|   ic > 1
+|   |   ic <= 2
+|   |   |   cbm <= 6: NO (24.19/4.03)
+|   |   |   cbm > 6
+|   |   |   |   npm <= 19
+|   |   |   |   |   ca <= 4
+|   |   |   |   |   |   noc <= 0: NO (23.18/10.08)
+|   |   |   |   |   |   noc > 0: YES (2.02)
+|   |   |   |   |   ca > 4: NO (2.02)
+|   |   |   |   npm > 19: YES (3.02)
+|   |   ic > 2
+|   |   |   noc <= 0: NO (10.08/4.03)
+|   |   |   noc > 0: YES (5.04)
+wmc > 46: YES (31.91/10.13)
+
+Number of Leaves  : 	34
+
+Size of the tree : 	67
+
+
+Correctly Classified Instances        1443               37.5879 %
+Incorrectly Classified Instances      2396               62.4121 %
+Kappa statistic                         -0.0592
+Mean absolute error                      0.6014
+Root mean squared error                  0.6987
+Relative absolute error                130.8813 %
+Root relative squared error            145.777  %
+Coverage of cases (0.95 level)          88.148  %
+Mean rel. region size (0.95 level)      90.7919 %
+Total Number of Instances             3839     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  393 2073 |    a = NO
+  323 1050 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.159    0.235    0.549      0.159    0.247      -0.093   0.426     0.601     NO
+                 0.765    0.841    0.336      0.765    0.467      -0.093   0.426     0.326     YES
+Weighted Avg.    0.376    0.452    0.473      0.376    0.326      -0.093   0.426     0.502     
+

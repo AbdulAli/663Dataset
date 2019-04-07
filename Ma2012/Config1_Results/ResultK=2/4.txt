@@ -1,0 +1,112 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration1\dataK=2\4tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration1\dataK=2\4test.csv
+
+J48 pruned tree
+------------------
+
+cbo <= 0
+|   avg_cc <= 0.875
+|   |   dam <= 0.666667
+|   |   |   loc <= 6: NO (7.02)
+|   |   |   loc > 6
+|   |   |   |   dit <= 1
+|   |   |   |   |   wmc <= 0: NO (3.01/1.0)
+|   |   |   |   |   wmc > 0: YES (7.02)
+|   |   |   |   dit > 1: NO (12.03/3.01)
+|   |   dam > 0.666667: NO (4.01)
+|   avg_cc > 0.875: NO (126.34/7.02)
+cbo > 0
+|   wmc <= 10
+|   |   cbm <= 3
+|   |   |   dam <= 0.571429
+|   |   |   |   lcom3 <= 0.883333
+|   |   |   |   |   loc <= 318
+|   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   ca <= 3: NO (135.36/52.14)
+|   |   |   |   |   |   |   ca > 3
+|   |   |   |   |   |   |   |   rfc <= 7: YES (4.01)
+|   |   |   |   |   |   |   |   rfc > 7
+|   |   |   |   |   |   |   |   |   cbo <= 9: NO (4.01/1.0)
+|   |   |   |   |   |   |   |   |   cbo > 9: YES (5.01)
+|   |   |   |   |   |   noc > 0
+|   |   |   |   |   |   |   noc <= 3: YES (6.02)
+|   |   |   |   |   |   |   noc > 3: NO (3.01/1.0)
+|   |   |   |   |   loc > 318: YES (13.03)
+|   |   |   |   lcom3 > 0.883333
+|   |   |   |   |   dit <= 3
+|   |   |   |   |   |   ca <= 0
+|   |   |   |   |   |   |   cam <= 0.875
+|   |   |   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   |   |   loc <= 72: YES (20.05/5.01)
+|   |   |   |   |   |   |   |   |   loc > 72: NO (13.03/4.01)
+|   |   |   |   |   |   |   |   ic > 0: NO (3.01/1.0)
+|   |   |   |   |   |   |   cam > 0.875: NO (4.01)
+|   |   |   |   |   |   ca > 0
+|   |   |   |   |   |   |   ic <= 0
+|   |   |   |   |   |   |   |   mfa <= 0.821429
+|   |   |   |   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   |   |   |   npm <= 3
+|   |   |   |   |   |   |   |   |   |   |   rfc <= 2: YES (71.19/16.04)
+|   |   |   |   |   |   |   |   |   |   |   rfc > 2
+|   |   |   |   |   |   |   |   |   |   |   |   cam <= 0.52381: YES (8.02/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   cam > 0.52381
+|   |   |   |   |   |   |   |   |   |   |   |   |   wmc <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   lcom3 <= 1.55618: YES (2.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   lcom3 > 1.55618: NO (13.03/3.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   wmc > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ce <= 1: NO (7.02/2.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   ce > 1: YES (4.01)
+|   |   |   |   |   |   |   |   |   |   npm > 3: YES (52.14/5.01)
+|   |   |   |   |   |   |   |   |   noc > 0
+|   |   |   |   |   |   |   |   |   |   npm <= 7: YES (6.02/1.0)
+|   |   |   |   |   |   |   |   |   |   npm > 7: NO (3.01)
+|   |   |   |   |   |   |   |   mfa > 0.821429: YES (11.03)
+|   |   |   |   |   |   |   ic > 0
+|   |   |   |   |   |   |   |   ca <= 1
+|   |   |   |   |   |   |   |   |   amc <= 13.583333: NO (8.02/1.0)
+|   |   |   |   |   |   |   |   |   amc > 13.583333: YES (3.01)
+|   |   |   |   |   |   |   |   ca > 1
+|   |   |   |   |   |   |   |   |   ce <= 0: NO (3.01/1.0)
+|   |   |   |   |   |   |   |   |   ce > 0: YES (15.04)
+|   |   |   |   |   dit > 3
+|   |   |   |   |   |   cbm <= 1: YES (46.12/4.01)
+|   |   |   |   |   |   cbm > 1: NO (3.01/1.0)
+|   |   |   dam > 0.571429: YES (125.34/21.06)
+|   |   cbm > 3
+|   |   |   cam <= 0.611111: YES (59.16/1.0)
+|   |   |   cam > 0.611111
+|   |   |   |   lcom <= 4: NO (3.01)
+|   |   |   |   lcom > 4: YES (2.01)
+|   wmc > 10: YES (221.82/10.03)
+
+Number of Leaves  : 	38
+
+Size of the tree : 	75
+
+
+Correctly Classified Instances         924               60.5505 %
+Incorrectly Classified Instances       602               39.4495 %
+Kappa statistic                         -0.0361
+Mean absolute error                      0.4074
+Root mean squared error                  0.581 
+Relative absolute error                 92.7282 %
+Root relative squared error            123.9819 %
+Coverage of cases (0.95 level)          75.0328 %
+Mean rel. region size (0.95 level)      68.709  %
+Total Number of Instances             1526     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 856 173 |   a = NO
+ 429  68 |   b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.832    0.863    0.666      0.832    0.740      -0.040   0.462     0.659     NO
+                 0.137    0.168    0.282      0.137    0.184      -0.040   0.462     0.314     YES
+Weighted Avg.    0.606    0.637    0.541      0.606    0.559      -0.040   0.462     0.547     
+

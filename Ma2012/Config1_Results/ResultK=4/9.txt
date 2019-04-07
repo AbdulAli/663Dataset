@@ -1,0 +1,98 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration1\dataK=4\9tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration1\dataK=4\9test.csv
+
+J48 pruned tree
+------------------
+
+amc <= 100.5
+|   loc <= 682
+|   |   npm <= 3
+|   |   |   npm <= 0
+|   |   |   |   max_cc <= 7
+|   |   |   |   |   cam <= 0.48: YES (89.39/40.17)
+|   |   |   |   |   cam > 0.48: NO (33.14/8.03)
+|   |   |   |   max_cc > 7: NO (18.08/1.0)
+|   |   |   npm > 0
+|   |   |   |   lcom3 <= 1.5
+|   |   |   |   |   cam <= 0.9
+|   |   |   |   |   |   dam <= 0.916667: YES (85.04/12.05)
+|   |   |   |   |   |   dam > 0.916667
+|   |   |   |   |   |   |   ca <= 5
+|   |   |   |   |   |   |   |   wmc <= 2: YES (13.06/3.01)
+|   |   |   |   |   |   |   |   wmc > 2
+|   |   |   |   |   |   |   |   |   wmc <= 3: NO (38.17/13.06)
+|   |   |   |   |   |   |   |   |   wmc > 3
+|   |   |   |   |   |   |   |   |   |   moa <= 0
+|   |   |   |   |   |   |   |   |   |   |   wmc <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   max_cc <= 7: NO (9.04/4.02)
+|   |   |   |   |   |   |   |   |   |   |   |   max_cc > 7: YES (2.01)
+|   |   |   |   |   |   |   |   |   |   |   wmc > 4
+|   |   |   |   |   |   |   |   |   |   |   |   amc <= 54.666667: NO (7.03/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   amc > 54.666667: YES (3.01/1.0)
+|   |   |   |   |   |   |   |   |   |   moa > 0
+|   |   |   |   |   |   |   |   |   |   |   cam <= 0.366667: NO (2.01)
+|   |   |   |   |   |   |   |   |   |   |   cam > 0.366667: YES (7.71)
+|   |   |   |   |   |   |   ca > 5: YES (12.05/2.01)
+|   |   |   |   |   cam > 0.9: YES (23.1/1.0)
+|   |   |   |   lcom3 > 1.5
+|   |   |   |   |   dit <= 2: YES (156.68/65.28)
+|   |   |   |   |   dit > 2: NO (201.88/87.38)
+|   |   npm > 3
+|   |   |   cam <= 0.198413: YES (85.4/8.03)
+|   |   |   cam > 0.198413
+|   |   |   |   mfa <= 0.977941
+|   |   |   |   |   moa <= 0
+|   |   |   |   |   |   noc <= 0
+|   |   |   |   |   |   |   dit <= 1: YES (191.83/63.27)
+|   |   |   |   |   |   |   dit > 1
+|   |   |   |   |   |   |   |   lcom3 <= 1.5
+|   |   |   |   |   |   |   |   |   dam <= 0.9
+|   |   |   |   |   |   |   |   |   |   lcom3 <= 0.6: NO (5.02/1.0)
+|   |   |   |   |   |   |   |   |   |   lcom3 > 0.6
+|   |   |   |   |   |   |   |   |   |   |   mfa <= 0.882883
+|   |   |   |   |   |   |   |   |   |   |   |   dit <= 4: YES (16.07/2.01)
+|   |   |   |   |   |   |   |   |   |   |   |   dit > 4: NO (3.01)
+|   |   |   |   |   |   |   |   |   |   |   mfa > 0.882883: YES (21.77)
+|   |   |   |   |   |   |   |   |   dam > 0.9
+|   |   |   |   |   |   |   |   |   |   mfa <= 0.7: YES (15.07/2.01)
+|   |   |   |   |   |   |   |   |   |   mfa > 0.7
+|   |   |   |   |   |   |   |   |   |   |   ic <= 1: NO (34.15/12.05)
+|   |   |   |   |   |   |   |   |   |   |   ic > 1: YES (31.14/12.05)
+|   |   |   |   |   |   |   |   lcom3 > 1.5: NO (42.18/16.07)
+|   |   |   |   |   |   noc > 0: YES (45.2/10.04)
+|   |   |   |   |   moa > 0: YES (329.13/84.04)
+|   |   |   |   mfa > 0.977941: YES (26.11/1.0)
+|   loc > 682: YES (176.14/10.04)
+amc > 100.5: YES (242.4/3.01)
+
+Number of Leaves  : 	31
+
+Size of the tree : 	61
+
+
+Correctly Classified Instances        2340               55.5556 %
+Incorrectly Classified Instances      1872               44.4444 %
+Kappa statistic                         -0.088 
+Mean absolute error                      0.4801
+Root mean squared error                  0.5612
+Relative absolute error                103.2067 %
+Root relative squared error            116.3664 %
+Coverage of cases (0.95 level)          98.0769 %
+Mean rel. region size (0.95 level)      97.2816 %
+Total Number of Instances             4212     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2178  484 |    a = NO
+ 1388  162 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.818    0.895    0.611      0.818    0.699      -0.103   0.366     0.561     NO
+                 0.105    0.182    0.251      0.105    0.148      -0.103   0.366     0.312     YES
+Weighted Avg.    0.556    0.633    0.478      0.556    0.496      -0.103   0.366     0.469     
+

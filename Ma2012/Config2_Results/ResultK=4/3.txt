@@ -1,0 +1,104 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=4\3tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=4\3test.csv
+
+J48 pruned tree
+------------------
+
+wmc <= 46
+|   ic <= 1
+|   |   dit <= 3
+|   |   |   noc <= 0
+|   |   |   |   cbo <= 1
+|   |   |   |   |   ca <= 0
+|   |   |   |   |   |   max_cc <= 0
+|   |   |   |   |   |   |   cam <= 0.833333: YES (14.13/5.05)
+|   |   |   |   |   |   |   cam > 0.833333: NO (8.07/1.01)
+|   |   |   |   |   |   max_cc > 0
+|   |   |   |   |   |   |   lcom3 <= 0.596875
+|   |   |   |   |   |   |   |   loc <= 172: YES (7.07/1.01)
+|   |   |   |   |   |   |   |   loc > 172: NO (18.17/4.04)
+|   |   |   |   |   |   |   lcom3 > 0.596875: NO (243.25/55.51)
+|   |   |   |   |   ca > 0: NO (19.18/2.02)
+|   |   |   |   cbo > 1
+|   |   |   |   |   ce <= 6
+|   |   |   |   |   |   npm <= 19
+|   |   |   |   |   |   |   cbo <= 12: NO (271.53/22.21)
+|   |   |   |   |   |   |   cbo > 12
+|   |   |   |   |   |   |   |   cbo <= 21: YES (5.05/1.01)
+|   |   |   |   |   |   |   |   cbo > 21: NO (12.11)
+|   |   |   |   |   |   npm > 19
+|   |   |   |   |   |   |   avg_cc <= 3.1429
+|   |   |   |   |   |   |   |   wmc <= 20: NO (2.02)
+|   |   |   |   |   |   |   |   wmc > 20: YES (9.08/3.03)
+|   |   |   |   |   |   |   avg_cc > 3.1429: NO (7.07)
+|   |   |   |   |   ce > 6
+|   |   |   |   |   |   avg_cc <= 2.6538
+|   |   |   |   |   |   |   dit <= 1
+|   |   |   |   |   |   |   |   cbo <= 12: NO (9.08/1.01)
+|   |   |   |   |   |   |   |   cbo > 12
+|   |   |   |   |   |   |   |   |   cam <= 0.220497: NO (2.02)
+|   |   |   |   |   |   |   |   |   cam > 0.220497: YES (5.05/1.01)
+|   |   |   |   |   |   |   dit > 1
+|   |   |   |   |   |   |   |   amc <= 21.181818: YES (7.07/2.02)
+|   |   |   |   |   |   |   |   amc > 21.181818: NO (23.23/3.37)
+|   |   |   |   |   |   avg_cc > 2.6538: YES (3.03)
+|   |   |   noc > 0
+|   |   |   |   npm <= 3: NO (10.09)
+|   |   |   |   npm > 3
+|   |   |   |   |   mfa <= 0.818182
+|   |   |   |   |   |   lcom3 <= 0.5: NO (6.06)
+|   |   |   |   |   |   lcom3 > 0.5
+|   |   |   |   |   |   |   lcom <= 202: YES (37.35/13.12)
+|   |   |   |   |   |   |   lcom > 202: NO (4.38)
+|   |   |   |   |   mfa > 0.818182: NO (22.21/3.03)
+|   |   dit > 3
+|   |   |   cbo <= 1
+|   |   |   |   dit <= 4: NO (16.15/6.06)
+|   |   |   |   dit > 4: YES (4.04/1.01)
+|   |   |   cbo > 1: NO (187.74/1.01)
+|   ic > 1
+|   |   ic <= 2
+|   |   |   cbm <= 6: NO (23.56/4.04)
+|   |   |   cbm > 6
+|   |   |   |   npm <= 19
+|   |   |   |   |   ca <= 4
+|   |   |   |   |   |   noc <= 0: NO (23.22/10.09)
+|   |   |   |   |   |   noc > 0: YES (2.02)
+|   |   |   |   |   ca > 4: NO (2.02)
+|   |   |   |   npm > 19: YES (3.03)
+|   |   ic > 2
+|   |   |   noc <= 0: NO (10.09/4.04)
+|   |   |   noc > 0: YES (5.05)
+wmc > 46: YES (31.8/10.15)
+
+Number of Leaves  : 	34
+
+Size of the tree : 	67
+
+
+Correctly Classified Instances         757               38.3291 %
+Incorrectly Classified Instances      1218               61.6709 %
+Kappa statistic                         -0.0745
+Mean absolute error                      0.5831
+Root mean squared error                  0.6849
+Relative absolute error                123.3359 %
+Root relative squared error            140.8703 %
+Coverage of cases (0.95 level)          88.6582 %
+Mean rel. region size (0.95 level)      90.557  %
+Total Number of Instances             1975     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  181 1037 |    a = NO
+  181  576 |    b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.149    0.239    0.500      0.149    0.229      -0.114   0.459     0.585     NO
+                 0.761    0.851    0.357      0.761    0.486      -0.114   0.459     0.367     YES
+Weighted Avg.    0.383    0.474    0.445      0.383    0.328      -0.114   0.459     0.501     
+

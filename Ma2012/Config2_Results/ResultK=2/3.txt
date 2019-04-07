@@ -1,0 +1,66 @@
+Classifier...: weka.classifiers.trees.J48 -C 0.25 -M 2
+Training file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=2\3tr.csv
+
+Testing file: C:\Users\HP\Desktop\AbdulAli\Baseline\Configuration2\dataK=2\3test.csv
+
+J48 pruned tree
+------------------
+
+wmc <= 46
+|   noc <= 0
+|   |   ce <= 6: NO (864.36/131.86)
+|   |   ce > 6
+|   |   |   avg_cc <= 2.6538
+|   |   |   |   cam <= 0.354167
+|   |   |   |   |   dit <= 1
+|   |   |   |   |   |   ca <= 5
+|   |   |   |   |   |   |   rfc <= 33: NO (5.2)
+|   |   |   |   |   |   |   rfc > 33
+|   |   |   |   |   |   |   |   lcom <= 30: YES (3.12)
+|   |   |   |   |   |   |   |   lcom > 30: NO (2.08)
+|   |   |   |   |   |   ca > 5: YES (2.62/0.54)
+|   |   |   |   |   dit > 1
+|   |   |   |   |   |   amc <= 24.333333: YES (7.27/2.08)
+|   |   |   |   |   |   amc > 24.333333: NO (17.94/2.82)
+|   |   |   |   cam > 0.354167: NO (16.63/2.08)
+|   |   |   avg_cc > 2.6538: YES (3.82)
+|   noc > 0
+|   |   npm <= 3: NO (18.7/4.16)
+|   |   npm > 3
+|   |   |   mfa <= 0.818182
+|   |   |   |   lcom3 <= 0.5: NO (6.23)
+|   |   |   |   lcom3 > 0.5
+|   |   |   |   |   lcom <= 202: YES (39.18/12.83)
+|   |   |   |   |   lcom > 202: NO (4.53)
+|   |   |   mfa > 0.818182: NO (37.47/10.05)
+wmc > 46: YES (25.87/8.41)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Correctly Classified Instances         220               48.9978 %
+Incorrectly Classified Instances       229               51.0022 %
+Kappa statistic                         -0.1593
+Mean absolute error                      0.4983
+Root mean squared error                  0.6067
+Relative absolute error                102.2016 %
+Root relative squared error            122.8832 %
+Coverage of cases (0.95 level)          96.4365 %
+Mean rel. region size (0.95 level)      96.9933 %
+Total Number of Instances              449     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+   7 182 |   a = NO
+  47 213 |   b = YES
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.037    0.181    0.130      0.037    0.058      -0.218   0.431     0.403     NO
+                 0.819    0.963    0.539      0.819    0.650      -0.218   0.431     0.546     YES
+Weighted Avg.    0.490    0.634    0.367      0.490    0.401      -0.218   0.431     0.486     
+
